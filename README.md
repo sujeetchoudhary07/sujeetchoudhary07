@@ -10,8 +10,8 @@
   </a>
 
   <p>
-    <a href="https://github.com/sujeetmehra01?tab=followers"><img src="https://img.shields.io/github/followers/sujeetmehra01?label=Followers&style=for-the-badge&color=5B7CFB&labelColor=151B39" alt="GitHub followers" /></a>
-    <img src="https://komarev.com/ghpvc/?username=sujeetmehra01&label=PROFILE+VIEWS&color=7C67F8&style=for-the-badge" alt="GitHub profile views" />
+    <a href="https://github.com/sujeetchoudhary07?tab=followers"><img src="https://img.shields.io/github/followers/sujeetmehra01?label=Followers&style=for-the-badge&color=5B7CFB&labelColor=151B39" alt="GitHub followers" /></a>
+    <img src="https://komarev.com/ghpvc/?username=sujeetchoudhary07&label=PROFILE+VIEWS&color=7C67F8&style=for-the-badge" alt="GitHub profile views" />
     <img src="https://img.shields.io/badge/Open%20Source-Enthusiast-38BDF8?style=for-the-badge&labelColor=151B39" alt="Open-source enthusiast" />
   </p>
 
