@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="440" viewBox="0 0 940 440" role="img" aria-labelledby="title description">
+  <title id="title">SuJeet's 3D GitHub contributions</title>
+  <desc id="description">An animated isometric contribution grid showing 4 contributions during the past year.</desc>
+  <defs>
+    <pattern id="grid" width="14" height="14" patternUnits="userSpaceOnUse">
+      <rect x="2" y="2" width="10" height="10" rx="2" fill="#21262d" />
+    </pattern>
+    <filter id="glow" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="3" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+  </defs>
+  <rect width="940" height="440" fill="#0d1117" rx="8" />
+  <text x="64" y="52" fill="#8b949e" font-family="sans-serif" font-size="12" letter-spacing="1">GITHUB CONTRIBUTIONS · LAST YEAR</text>
+  <text x="64" y="91" fill="#f0f6fc" font-family="sans-serif" font-size="30" font-weight="700">4</text>
+  <text x="93" y="90" fill="#8b949e" font-family="sans-serif" font-size="14">contributions · Nov 2025 to Nov 2026</text>
+  <g transform="matrix(.857 .429 -.857 .429 250 35)">
+    <rect width="742" height="98" fill="url(#grid)" />
+  </g>
+  <g filter="url(#glow)">
+    <path d="M874 356 L883 360 L883 382 L874 387 Z" fill="#16803c" />
+    <path d="M883 360 L874 365 L874 387 L883 382 Z" fill="#116329" />
+    <path d="M874 356 L883 360 L874 365 L865 360 Z" fill="#39d353">
+      <animate attributeName="opacity" values="0.75;1;0.75" dur="2.8s" repeatCount="indefinite" />
+    </path>
+  </g>
+  <path d="M180 395 H885" stroke="#30363d" stroke-width="1" />
+  <text x="170" y="418" fill="#8b949e" font-family="sans-serif" font-size="11">NOV 2025</text>
+  <text x="820" y="418" fill="#8b949e" font-family="sans-serif" font-size="11">NOV 2026</text>
+</svg>
