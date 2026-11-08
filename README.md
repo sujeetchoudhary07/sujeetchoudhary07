@@ -1,7 +1,7 @@
 <!-- 3D ANIMATED GITHUB PROFILE · SuJeet / sujeetmehra01 -->
 <div align="center">
 
-  <img src="./assets/hero-3d.svg" alt="SuJeet — Full Stack Web and App Engineer, animated 3D banner" width="100%" />
+  <img src="./assets/hero-3d.svg" alt="SuJeet Choudhary — Full Stack Web and App Engineer, animated 3D banner" width="100%" />
 
   <br />
 
@@ -21,7 +21,7 @@
 
 ## 👨‍💻 About me
 
-I'm **SuJeet**, a self-taught **full-stack web/app developer and freelance software engineer** from India. I love turning ambitious ideas into thoughtful, elegant digital products, with a focus on **developer experience, architecture, maintainability, and code quality**.
+I'm **SuJeet Choudhary**, a self-taught **full-stack web/app developer and freelance software engineer** from India. I love turning ambitious ideas into thoughtful, elegant digital products, with a focus on **developer experience, architecture, maintainability, and code quality**.
 
 - 🚀 I enjoy building modern, responsive web and mobile applications.
 - 🧠 I'm interested in clean architecture, reusable components, and scalable systems.
