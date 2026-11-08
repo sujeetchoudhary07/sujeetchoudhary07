@@ -1,0 +1,125 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1200" height="380" viewBox="0 0 1200 380" role="img" aria-labelledby="title desc">
+  <title id="title">SuJeet — Full Stack Web and App Engineer</title>
+  <desc id="desc">An animated dark gradient banner with luminous three-dimensional isometric cube, orbiting dots, and SuJeet's developer introduction.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#061225"/><stop offset="0.55" stop-color="#0d1133"/><stop offset="1" stop-color="#14133e"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.77" cy="0.43" r="0.58">
+      <stop offset="0" stop-color="#6758f5" stop-opacity=".30"/><stop offset="0.55" stop-color="#157cdb" stop-opacity=".08"/><stop offset="1" stop-color="#0d1530" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="type" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#ffffff"/><stop offset="0.55" stop-color="#dce9ff"/><stop offset="1" stop-color="#9de6ff"/>
+    </linearGradient>
+    <linearGradient id="cubeTop" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#c4d4ff"/><stop offset=".52" stop-color="#7265f6"/><stop offset="1" stop-color="#3b68df"/>
+    </linearGradient>
+    <linearGradient id="cubeLeft" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#8659ef"/><stop offset="1" stop-color="#272a71"/>
+    </linearGradient>
+    <linearGradient id="cubeRight" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#37c3ff"/><stop offset="1" stop-color="#2458a4"/>
+    </linearGradient>
+    <linearGradient id="pill" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#152e59" stop-opacity=".84"/><stop offset="1" stop-color="#252457" stop-opacity=".6"/>
+    </linearGradient>
+    <pattern id="grid" width="34" height="34" patternUnits="userSpaceOnUse">
+      <path d="M34 0H0V34" fill="none" stroke="#7a8fc7" stroke-opacity=".11" stroke-width="1"/>
+    </pattern>
+    <filter id="blur"><feGaussianBlur stdDeviation="30"/></filter>
+    <filter id="softShadow" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="10" result="blur"/>
+      <feOffset dy="12" result="offset"/>
+      <feComponentTransfer in="offset" result="fade"><feFuncA type="linear" slope=".45"/></feComponentTransfer>
+      <feMerge><feMergeNode in="fade"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <clipPath id="frame"><rect width="1200" height="380" rx="22"/></clipPath>
+    <style><![CDATA[
+      .orbit { transform-box: fill-box; transform-origin: center; animation: spin 18s linear infinite; }
+      .orbit2 { transform-box: fill-box; transform-origin: center; animation: spinback 25s linear infinite; }
+      .float { animation: bob 5s ease-in-out infinite; }
+      .float2 { animation: bob 7s ease-in-out -2.3s infinite; }
+      .pulse { animation: pulse 3.6s ease-in-out infinite; }
+      .blink { animation: blink 1s step-end infinite; }
+      .rise { animation: rise 1.4s ease-out both; }
+      .late { animation-delay: .30s; }
+      .later { animation-delay: .55s; }
+      .scan { animation: scan 8s ease-in-out infinite alternate; }
+      @keyframes spin { to { transform: rotate(360deg); } }
+      @keyframes spinback { to { transform: rotate(-360deg); } }
+      @keyframes bob { 0%,100% { transform: translateY(0px); } 50% { transform: translateY(-12px); } }
+      @keyframes pulse { 0%,100% { opacity: .4; } 50% { opacity: 1; } }
+      @keyframes blink { 50% { opacity:0; } }
+      @keyframes rise { from { opacity:0; transform:translateY(14px); } to { opacity:1; transform:translateY(0); } }
+      @keyframes scan { from { transform:translateX(-30px); } to { transform:translateX(35px); } }
+      @media (prefers-reduced-motion: reduce) { * { animation: none !important; } }
+    ]]></style>
+  </defs>
+  <g clip-path="url(#frame)">
+    <rect width="1200" height="380" fill="url(#bg)"/>
+    <rect width="1200" height="380" fill="url(#glow)"/>
+    <rect width="1200" height="380" fill="url(#grid)" opacity=".7"/>
+    <ellipse cx="950" cy="198" rx="205" ry="175" fill="#3b4bdb" opacity=".12" filter="url(#blur)"/>
+    <path d="M0 322 Q280 258 575 333 T1200 303" fill="none" stroke="#738bfa" stroke-width="1" stroke-opacity=".18"/>
+    <path d="M0 338 Q280 274 575 349 T1200 319" fill="none" stroke="#5ddaff" stroke-width="1" stroke-opacity=".10"/>
+    <rect x="28" y="28" width="1144" height="324" rx="16" fill="none" stroke="#aac2ff" stroke-opacity=".13"/>
+    <path d="M54 52h52 M54 52v36 M1146 328h-52 M1146 328v-36" stroke="#62d9ff" stroke-width="2" stroke-opacity=".65" fill="none"/>
+
+    <g class="rise">
+      <circle cx="71" cy="93" r="5" fill="#54e4c2"/>
+      <circle cx="71" cy="93" r="10" fill="none" stroke="#54e4c2" stroke-opacity=".2" class="pulse"/>
+      <text x="89" y="99" fill="#a6c1de" font-size="15" font-family="'Segoe UI',Arial,sans-serif" letter-spacing="2.7">HELLO, I'M</text>
+    </g>
+    <g class="rise late">
+      <text x="65" y="182" fill="url(#type)" font-size="80" font-family="'Segoe UI',Arial,sans-serif" font-weight="800" letter-spacing="-3">SuJeet</text>
+      <path d="M69 199h316" stroke="#48c8ff" stroke-width="3" stroke-linecap="round"/>
+      <path d="M69 199h160" stroke="#a276ff" stroke-width="3" stroke-linecap="round" class="scan"/>
+    </g>
+    <g class="rise later">
+      <text x="70" y="242" fill="#e9eefe" font-size="22" font-family="'Segoe UI',Arial,sans-serif" font-weight="650" letter-spacing="1.2">FULL STACK WEB &amp; APP ENGINEER</text>
+      <text x="70" y="271" fill="#95a8d1" font-size="16" font-family="'Segoe UI',Arial,sans-serif">Ideas to interfaces. Architecture to impact.</text>
+      <rect x="69" y="292" width="420" height="37" rx="18.5" fill="url(#pill)" stroke="#7b8ee7" stroke-opacity=".30"/>
+      <text x="89" y="316" fill="#bde2f9" font-size="14" font-weight="550" font-family="'Segoe UI',Arial,sans-serif" letter-spacing="1">REACT  ·  NODE.JS  ·  MONGODB  ·  OPEN SOURCE</text>
+    </g>
+
+    <g opacity=".58" transform="translate(948 190)">
+      <g class="orbit"><ellipse cx="0" cy="0" rx="195" ry="76" stroke="#68baff" stroke-width="1.5" stroke-dasharray="8 13" fill="none" transform="rotate(-25)"/><circle cx="180" cy="-22" r="5" fill="#7beaff"/></g>
+      <g class="orbit2"><ellipse cx="0" cy="0" rx="151" ry="105" stroke="#ad8dff" stroke-width="1.2" stroke-dasharray="4 12" fill="none" transform="rotate(32)"/><circle cx="-128" cy="70" r="4" fill="#b18aff"/></g>
+    </g>
+
+    <g transform="translate(948 117)">
+      <ellipse cx="0" cy="187" rx="142" ry="27" fill="#5e5ce7" opacity=".2" filter="url(#blur)"/>
+      <g class="float" filter="url(#softShadow)">
+        <path d="M0 -76 108 -24 0 31 -108 -24Z" fill="url(#cubeTop)" stroke="#ccdeff" stroke-opacity=".75" stroke-width="2"/>
+        <path d="M-108 -24 0 31 0 147 -108 92Z" fill="url(#cubeLeft)" stroke="#d4b8ff" stroke-opacity=".65" stroke-width="2"/>
+        <path d="M108 -24 0 31 0 147 108 92Z" fill="url(#cubeRight)" stroke="#85e4ff" stroke-opacity=".65" stroke-width="2"/>
+        <path d="M-108 -24 0 31 108 -24 M0 31V147" fill="none" stroke="#f1f8ff" stroke-opacity=".25" stroke-width="2"/>
+        <path d="M-83 -22 0 19 83 -22 M-83 76 0 119 83 76" stroke="#d9e4ff" stroke-opacity=".2" fill="none"/>
+        <path d="M-30 -58 29 -28 -29 1 -87 -28Z" fill="#eef2ff" fill-opacity=".14"/>
+        <g transform="translate(-55 64) skewY(27)">
+          <text x="0" y="0" font-size="62" font-weight="900" fill="#e7d6ff" opacity=".9" font-family="'Segoe UI',Arial,sans-serif">S</text>
+        </g>
+        <g transform="translate(20 64) skewY(-27)">
+          <path d="M0 -10h56 M0 4h41 M0 18h48" stroke="#b5faff" stroke-width="4" stroke-linecap="round" opacity=".8"/>
+          <circle cx="0" cy="-30" r="5" fill="#72f5dd"/>
+        </g>
+      </g>
+    </g>
+
+    <g class="float2" opacity=".95">
+      <rect x="722" y="64" width="125" height="54" rx="12" fill="#101e43" stroke="#566ee8" stroke-opacity=".65"/>
+      <circle cx="741" cy="82" r="5" fill="#56e0c5"/>
+      <text x="757" y="86" font-family="monospace" font-size="13" fill="#c5e6ff">&lt;/&gt; build</text>
+      <path d="M738 101h91" stroke="#56bffe" stroke-opacity=".5"/>
+    </g>
+    <g class="float2" opacity=".95" style="animation-delay:-4s">
+      <rect x="1060" y="251" width="111" height="56" rx="12" fill="#121b42" stroke="#7f75ef" stroke-opacity=".7"/>
+      <path d="M1076 279l10 10 15-18" stroke="#62e7c9" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+      <text x="1112" y="282" font-size="12" font-family="monospace" fill="#cee8ff">SHIP</text>
+      <text x="1112" y="295" font-size="10" font-family="monospace" fill="#93a5d4">READY</text>
+    </g>
+    <circle cx="685" cy="307" r="3" fill="#77ceff" class="pulse"/>
+    <circle cx="1119" cy="105" r="3.5" fill="#bf99ff" class="pulse"/>
+    <circle cx="690" cy="156" r="2" fill="#9ce7ff" class="pulse"/>
+  </g>
+</svg>
