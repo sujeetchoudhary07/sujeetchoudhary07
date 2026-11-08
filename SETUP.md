@@ -1,11 +1,11 @@
 # Setup guide — SuJeet animated 3D GitHub profile
 
-This package is customized from the supplied GitHub README for **sujeetmehra01**.
+This package is customized from the supplied GitHub README for **sujeetchoudhary07**.
 
 ## What's inside
 
 ```text
-sujeetmehra01/
+sujeetchoudhary07/
 ├── README.md
 ├── assets/
 │   ├── hero-3d.svg            # Custom animated, faux-3D SVG hero
@@ -25,7 +25,7 @@ assets/github-snake-dark.svg
 
 ## Publish the profile
 
-1. Create or open the **public** GitHub repository at `https://github.com/sujeetmehra01/sujeetmehra01`. The repository name must match the username for a profile README.
+1. Create or open the **public** GitHub repository at `https://github.com/sujeetchoudhary07/sujeetchoudhary07`. The repository name must match the username for a profile README.
 2. Copy `README.md`, both files in `assets/`, and `.github/workflows/animations.yml` into the matching paths in that repository. The files must be committed to your repository's default branch.
 3. In GitHub, open **Settings → Actions → General** and ensure Actions are enabled for the repository. If your organization's/repository's workflow settings restrict the built-in token, permit `GITHUB_TOKEN` to write repository contents, or keep the workflow's `permissions: contents: write` setting.
 4. Open **Actions → Update 3D GitHub Profile Animations → Run workflow** to create the contribution images for the first time. Review the workflow log and generated file paths if a card remains blank.

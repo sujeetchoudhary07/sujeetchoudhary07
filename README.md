@@ -1,4 +1,4 @@
-<!-- 3D ANIMATED GITHUB PROFILE · SuJeet / sujeetmehra01 -->
+<!-- 3D ANIMATED GITHUB PROFILE · SuJeet / sujeetchoudhary07 -->
 <div align="center">
 
   <img src="./assets/hero-3d.svg" alt="SuJeet Choudhary — Full Stack Web and App Engineer, animated 3D banner" width="100%" />
@@ -10,7 +10,7 @@
   </a>
 
   <p>
-    <a href="https://github.com/sujeetchoudhary07?tab=followers"><img src="https://img.shields.io/github/followers/sujeetmehra01?label=Followers&style=for-the-badge&color=5B7CFB&labelColor=151B39" alt="GitHub followers" /></a>
+    <a href="https://github.com/sujeetchoudhary07?tab=followers"><img src="https://img.shields.io/github/followers/sujeetchoudhary07?label=Followers&style=for-the-badge&color=5B7CFB&labelColor=151B39" alt="GitHub followers" /></a>
     <img src="https://komarev.com/ghpvc/?username=sujeetchoudhary07&label=PROFILE+VIEWS&color=7C67F8&style=for-the-badge" alt="GitHub profile views" />
     <img src="https://img.shields.io/badge/Open%20Source-Enthusiast-38BDF8?style=for-the-badge&labelColor=151B39" alt="Open-source enthusiast" />
   </p>
@@ -56,12 +56,12 @@ I'm **SuJeet Choudhary**, a self-taught **full-stack web/app developer and freel
 ## 📊 GitHub at a glance
 
 <div align="center">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=sujeetmehra01&show_icons=true&hide_border=true&bg_color=0D1117&title_color=8C8AFF&icon_color=54CFF7&text_color=C9D1D9" alt="SuJeet's GitHub statistics" />
-  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=sujeetmehra01&layout=compact&hide_border=true&bg_color=0D1117&title_color=8C8AFF&text_color=C9D1D9" alt="SuJeet's most-used public repository languages" />
+  <img height="170" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=sujeetchoudhary07&theme=github_dark" alt="SuJeet's GitHub statistics" />
+  <img height="170" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=sujeetchoudhary07&theme=github_dark" alt="SuJeet's most-used public repository languages" />
 </div>
 
 <div align="center">
-  <img src="https://streak-stats.demolab.com?user=sujeetmehra01&theme=tokyonight&hide_border=true&background=0D1117" alt="SuJeet's GitHub contribution streak" />
+  <img src="https://streak-stats.demolab.com?user=sujeetchoudhary07&theme=tokyonight&hide_border=true&background=0D1117" alt="SuJeet's GitHub contribution streak" />
 </div>
 
 ## 🐍 Contributions in motion
